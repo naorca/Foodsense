@@ -1,6 +1,6 @@
-* {
+            * {
     font-family: cursive;
-} 
+}
 
 .maincontainer {
     display: flex;
@@ -8,7 +8,6 @@
     justify-content: space-around;
     width: 350px;
     margin: auto;
-    
 }
 
 .maincontainer__navlogo {
@@ -25,7 +24,6 @@
     color: #34ac98;
     border-bottom: 1px solid #e4e4e4;
     padding: 15px 0px;
-    
 }
 
 .nav__img {
@@ -49,9 +47,8 @@ a:hover {
 }
 
 .maincontainer__image {
-    border-bottom: 2px dotted #e4e4e4;;
-    
-
+    border-bottom: 2px dotted #e4e4e4;
+    ;
 }
 
 .maincontainer__logo-h3 {
@@ -64,7 +61,6 @@ a:hover {
     font-weight: 600;
     opacity: 0.6;
     padding: 5px;
-    
 }
 
 .maincontainer__logo-h4 {
@@ -76,7 +72,6 @@ a:hover {
     font-size: 11px;
     padding: 10px 10px;
     font-weight: 100;
-      
 }
 
 .maincontainer__newsletter {
@@ -85,7 +80,6 @@ a:hover {
     margin: 20px;
     border-bottom: 2px dotted #e4e4e4;
     padding-bottom: 20px;
-
 }
 
 .newsletter__img {
@@ -98,66 +92,48 @@ a:hover {
     padding: 5px;
 }
 
-
 .newsletter__input {
     color: gray;
     font-size: 13px;
-    
 }
 
 .newsletter__btn {
     font-size: 12px;
     border-radius: 3px;
-    background:  #e4e4e4;
+    background: #e4e4e4;
     padding: 2px 13px;
     font-weight: bold;
 }
 
-
-
 .main-posts {
     display: flex;
     flex-wrap: wrap;
-    
-
-    
-    
 }
 
 .main-posts__item {
     list-style: none;
-    
 }
-
 
 .main-posts__item img {
     padding: 10px;
     cursor: pointer;
     border: 1px solid #e4e4e4;
-    
-    
-    
 }
 
 .main-posts__item h3 {
-   
     flex-basis: 96%;
     text-align: left;
     font-size: 15px;
     color: #34ac98;
     cursor: pointer;
     font-weight: 100;
-    
 }
 
 .main-posts__item p {
     font-size: 14px;
-    font-family:  ff-tisa-web-pro, Georgia, sans-serif;
+    font-family: ff-tisa-web-pro, Georgia, sans-serif;
     line-height: 1.5em;
     padding: 3px;
-    
-    
-    
 }
 
 .fcontainer {
@@ -187,17 +163,17 @@ a:hover {
 
 
 /* MEDIA QUERIES */
-  /* ==========================================*/
+
+
+/* ==========================================*/
 
 @media all and (min-width:480px) {
-    
     .maincontainer {
         width: 500px;
     }
     .maincontainer__navlogo {
         flex-wrap: nowrap;
         flex-direction: row-reverse;
-        
     }
     .maincontainer__logo {
         justify-content: flex-start;
@@ -207,79 +183,49 @@ a:hover {
         border-bottom-style: none;
         align-items: center;
     }
-    
     .maincontainer__logo-h3 {
         top: 334px;
         width: 490px;
-
-
-        
     }
-    
     .maincontainer__logo-h4 {
         top: 355px;
         width: 480px;
-        
     }
     .newsletter__input {
         margin: 10px;
-        
     }
-    
     .main-posts {
         padding: 0;
-        
-        
     }
     .main-posts__item {
         width: 40%;
         padding: 20px 5px;
         margin: 15px 18px;
-        
-
-    
     }
     .post__img {
         height: 150px;
     }
-
-    
     .fcontainer {
         width: 400px;
-         
     }
-    
-  /* ==========================================*/
-    
+    /* ==========================================*/
     @media all and (min-width:900px) {
-        
         .maincontainer__navlogo {
             width: 100%;
             margin: auto;
         }
-        
         .nav__img {
-            display: flex;  
+            display: flex;
         }
-        
-         .nav__item a {
-             padding: 5px;
-  
+        .nav__item a {
+            padding: 5px;
         }
-        
         .maincontainer__nav {
             font-size: 15px;
             justify-content: space-between;
             flex-basis: 50%;
             align-items: flex-end;
-               
         }
-        
-                
-        
-        
-        
-        
         .maincontainer__logo-h3 {
             background-color: white;
             padding: 15px;
@@ -291,42 +237,29 @@ a:hover {
             text-align: center;
             word-spacing: 4px;
         }
-        
         .maincontainer__logo-h4 {
             font-size: 14px;
             top: 443px;
             text-align: center;
             width: 300px;
             word-spacing: 4px;
-        
-            
-            
-            
         }
-                
         .maincontainer__newsletter {
             display: flex;
             align-items: center;
-                
-            }
-
+        }
         .maincontainer__newsletter p {
             width: 350px;
         }
         .main-posts {
             flex-wrap: nowrap;
-            
-            
         }
         .main-posts__item {
             width: 24%;
             overflow: hidden;
             padding: 0;
             margin: 5px;
-          
         }
-        
-        
         .fcontainer {
             width: 96%;
         }
@@ -341,62 +274,38 @@ a:hover {
         .fcontainer__footer--rights {
             font-size: 11px;
         }
-        
-        
-     /* ==========================================*/
-        
+        /* ==========================================*/
         @media all and (min-width:1200px) {
-            
-            
             .maincontainer {
                 width: 1200px;
                 margin-top: 50px;
-                
             }
-            
             .maincontainer__large-div {
                 display: flex;
-                
-                
-                
             }
             .maincontainer__navlogo {
                 flex-direction: column-reverse;
                 align-items: center;
                 margin-top: 0;
-                
             }
-            
             .maincontainer__nav {
                 display: block;
                 flex-shrink: 3;
             }
-
             .nav__item a {
                 display: flex;
                 align-items: center;
-                
             }
-            
             .maincontainer__logo {
                 padding: 0px;
                 flex-shrink: 40;
-                            
-                
             }
-            
             .maincontainer__logo-h4 {
-                right: -482px;
+                top: 380px;
             }
-            
             .maincontainer__logo-h3 {
-                right: -670px;
-                
+                top: 350px;
             }
-            
-           
-            
-            
             .fcontainer {
                 width: 900px;
             }
