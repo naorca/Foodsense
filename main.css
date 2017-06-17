@@ -1,4 +1,7 @@
-            * {
+        
+
+
+* {
     font-family: cursive;
 }
 
@@ -209,23 +212,41 @@ a:hover {
         width: 400px;
     }
     /* ==========================================*/
+    
     @media all and (min-width:900px) {
-        .maincontainer__navlogo {
-            width: 100%;
-            margin: auto;
+        
+        .maincontainer__nav {
+            flex-basis: 65%;
         }
+         .nav__item {
+             flex-basis: 100%;
+             font-size: 15px;
+             display: flex;
+             justify-content: center;
+             text-align: center;
+             padding: 10px;
+             
+     
+            }
+        
+        .nav__item:hover .nav__img {
+            transform: translate(0px, 3px);
+
+        }
+
+        .nav__item a {
+             flex-basis: 100%;
+
+        }
+
         .nav__img {
             display: flex;
+            margin: auto;
+            padding-bottom: 5px;
+            transition: transform 200ms ease-in-out;
+
         }
-        .nav__item a {
-            padding: 5px;
-        }
-        .maincontainer__nav {
-            font-size: 15px;
-            justify-content: space-between;
-            flex-basis: 50%;
-            align-items: flex-end;
-        }
+
         .maincontainer__logo-h3 {
             background-color: white;
             padding: 15px;
@@ -275,27 +296,57 @@ a:hover {
             font-size: 11px;
         }
         /* ==========================================*/
+        
+        
         @media all and (min-width:1200px) {
+            
             .maincontainer {
                 width: 1200px;
                 margin-top: 50px;
             }
             .maincontainer__large-div {
                 display: flex;
+                align-items: center;
+    
             }
             .maincontainer__navlogo {
                 flex-direction: column-reverse;
-                align-items: center;
-                margin-top: 0;
+                
+                
+            
             }
             .maincontainer__nav {
                 display: block;
-                flex-shrink: 3;
+                
+                
             }
+            
+            .nav__item {
+                display: flex;
+                
+                
+               
+                
+            }
+            
             .nav__item a {
                 display: flex;
                 align-items: center;
+                flex-basis: 100%;
+                margin: 4p
             }
+            
+            .nav__item:hover .nav__img {
+                transform: translate(3px, 0px);
+
+            }
+            
+            .nav__img {
+                 transition: transform 200ms ease-in-out;
+                 margin: 0px 10px;
+                
+            }
+            
             .maincontainer__logo {
                 padding: 0px;
                 flex-shrink: 40;
