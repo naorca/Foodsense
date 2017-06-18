@@ -72,7 +72,7 @@ a:hover {
     top: 445px;
     background-color: black;
     color: white;
-    font-size: 11px;
+    font-size: 9px;
     padding: 10px 10px;
     font-weight: 100;
 }
@@ -171,6 +171,7 @@ a:hover {
 /* ==========================================*/
 
 @media all and (min-width:480px) {
+    
     .maincontainer {
         width: 500px;
     }
@@ -186,13 +187,15 @@ a:hover {
         border-bottom-style: none;
         align-items: center;
     }
+    
     .maincontainer__logo-h3 {
-        top: 334px;
+        top: 336px;
         width: 490px;
     }
     .maincontainer__logo-h4 {
-        top: 355px;
+        top: 360px;
         width: 480px;
+        
     }
     .newsletter__input {
         margin: 10px;
@@ -226,7 +229,6 @@ a:hover {
              text-align: center;
              padding: 10px;
              
-     
             }
         
         .nav__item:hover .nav__img {
@@ -249,20 +251,22 @@ a:hover {
 
         .maincontainer__logo-h3 {
             background-color: white;
-            padding: 15px;
+            padding: 10px 0px;
             font-size: 20px;
             opacity: 1;
             font-weight: 100;
-            top: 400px;
-            width: 200px;
+            top: 450px;
+            width: 300px;
             text-align: center;
             word-spacing: 4px;
         }
         .maincontainer__logo-h4 {
             font-size: 14px;
-            top: 443px;
+            top: 485px;
+            padding: 10px 30px;
             text-align: center;
-            width: 300px;
+            width: auto;
+    
             word-spacing: 4px;
         }
         .maincontainer__newsletter {
@@ -323,10 +327,7 @@ a:hover {
             
             .nav__item {
                 display: flex;
-                
-                
-               
-                
+
             }
             
             .nav__item a {
@@ -355,7 +356,7 @@ a:hover {
                 top: 380px;
             }
             .maincontainer__logo-h3 {
-                top: 350px;
+                top: 345px;
             }
             
             .main-posts {
