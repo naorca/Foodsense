@@ -140,7 +140,7 @@ a:hover {
 }
 
 .fcontainer {
-    width: 350px;
+     width: 350px;
     margin: auto;
     border-top: 1px solid #e4e4e4;
     height: 90px;
@@ -212,7 +212,7 @@ a:hover {
         height: 150px;
     }
     .fcontainer {
-        width: 400px;
+        width: 500px;
     }
     /* ==========================================*/
     
@@ -286,7 +286,7 @@ a:hover {
             margin: 5px;
         }
         .fcontainer {
-            width: 96%;
+            width: 900px;
         }
         .fcontainer__social {
             align-items: center;
@@ -307,6 +307,7 @@ a:hover {
             .maincontainer {
                 width: 1200px;
                 margin-top: 50px;
+                
             }
             .maincontainer__large-div {
                 display: flex;
@@ -361,7 +362,7 @@ a:hover {
             
             .main-posts {
                 flex-basis: 90%;
-                justify-content: flex-end;
+                justify-content: flex-end
                 
             }
             
@@ -372,5 +373,7 @@ a:hover {
             }
             
             .fcontainer {
-                width: 900px;
+                width: 1200px;
+                
+                
             }
