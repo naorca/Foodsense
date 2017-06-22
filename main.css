@@ -57,7 +57,7 @@ a:hover {
 .maincontainer__logo-h3 {
     width: 340px;
     position: absolute;
-    top: 424px;
+    top: 427px;
     background-color: aliceblue;
     font-size: 15px;
     margin: 5px 0;
@@ -69,13 +69,14 @@ a:hover {
 .maincontainer__logo-h4 {
     width: 330px;
     position: absolute;
-    top: 445px;
+    top: 450px;
     background-color: black;
     color: white;
     font-size: 9px;
     padding: 10px 10px;
     font-weight: 100;
 }
+
 
 .maincontainer__newsletter {
     text-align: left;
@@ -123,6 +124,11 @@ a:hover {
     border: 1px solid #e4e4e4;
 }
 
+.main-posts__item img:hover {
+    opacity: 0.7;
+    
+}
+
 .main-posts__item h3 {
     flex-basis: 96%;
     text-align: left;
@@ -130,6 +136,11 @@ a:hover {
     color: #34ac98;
     cursor: pointer;
     font-weight: 100;
+}
+
+.main-posts__item h3:hover {
+    color: red;
+    
 }
 
 .main-posts__item p {
@@ -197,6 +208,7 @@ a:hover {
         width: 480px;
         
     }
+    
     .newsletter__input {
         margin: 10px;
     }
@@ -225,7 +237,7 @@ a:hover {
              flex-basis: 100%;
              font-size: 15px;
              display: flex;
-             justify-content: center;
+             justify-content: flex-end;
              text-align: center;
              padding: 10px;
              
@@ -245,7 +257,7 @@ a:hover {
             display: flex;
             margin: auto;
             padding-bottom: 5px;
-            transition: transform 200ms ease-in-out;
+            transition: transform 150ms ease-in-out;
 
         }
 
@@ -255,7 +267,7 @@ a:hover {
             font-size: 20px;
             opacity: 1;
             font-weight: 100;
-            top: 450px;
+            top: 452px;
             width: 300px;
             text-align: center;
             word-spacing: 4px;
@@ -266,8 +278,17 @@ a:hover {
             padding: 10px 30px;
             text-align: center;
             width: auto;
-    
             word-spacing: 4px;
+        }
+        
+        .maincontainer__logo-h4:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        .maincontainer__logo-h3:hover {
+            opacity: 0.7;
+            cursor: pointer;
         }
         .maincontainer__newsletter {
             display: flex;
@@ -322,6 +343,7 @@ a:hover {
             }
             .maincontainer__nav {
                 display: block;
+                margin-right: 20px;
                 
                 
             }
@@ -335,7 +357,7 @@ a:hover {
                 display: flex;
                 align-items: center;
                 flex-basis: 100%;
-                margin: 4p
+                
             }
             
             .nav__item:hover .nav__img {
@@ -344,9 +366,13 @@ a:hover {
             }
             
             .nav__img {
-                 transition: transform 200ms ease-in-out;
+                 transition: transform 150ms ease-in-out;
                  margin: 0px 10px;
                 
+            }
+            
+            .maincontainer__bigmenu {
+                display: block;
             }
             
             .maincontainer__logo {
@@ -357,7 +383,7 @@ a:hover {
                 top: 380px;
             }
             .maincontainer__logo-h3 {
-                top: 345px;
+                top: 346px;
             }
             
             .main-posts {
@@ -374,6 +400,5 @@ a:hover {
             
             .fcontainer {
                 width: 1200px;
-                
-                
+
             }
