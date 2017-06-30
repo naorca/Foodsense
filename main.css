@@ -2,7 +2,7 @@
 
 
 * {
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .maincontainer {
@@ -57,7 +57,7 @@ a:hover {
 .maincontainer__logo-h3 {
     width: 340px;
     position: absolute;
-    top: 427px;
+    top: 430px;
     background-color: aliceblue;
     font-size: 15px;
     margin: 5px 0;
@@ -145,7 +145,6 @@ a:hover {
 
 .main-posts__item p {
     font-size: 14px;
-    font-family: ff-tisa-web-pro, Georgia, sans-serif;
     line-height: 1.5em;
     padding: 3px;
 }
@@ -200,7 +199,7 @@ a:hover {
     }
     
     .maincontainer__logo-h3 {
-        top: 336px;
+        top: 339px;
         width: 490px;
     }
     .maincontainer__logo-h4 {
@@ -267,7 +266,7 @@ a:hover {
             font-size: 20px;
             opacity: 1;
             font-weight: 100;
-            top: 452px;
+            top: 455px;
             width: 300px;
             text-align: center;
             word-spacing: 4px;
@@ -396,7 +395,7 @@ a:hover {
                 top: 380px;
             }
             .maincontainer__logo-h3 {
-                top: 346px;
+                top: 349px;
             }
             
             .main-posts {
